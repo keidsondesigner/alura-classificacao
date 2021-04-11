@@ -1,0 +1,158 @@
+:root {
+  --primary-color: rgb(42, 158, 194);
+}
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  outline:0;
+
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png');
+  background-color:#0B74FD;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.logo-header{
+  background-color: #0B74FD;
+  border-radius: 2px;
+  padding: 6px;
+  
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 20px 0;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+.page-logo {
+  display:flex;
+  width: 200px;
+  margin: 60px auto;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin: 20px 0px;
+  
+}
+
+
+
+
+h1 {
+  color: white;
+  margin-bottom: 40px;
+  text-align:center;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container td {
+	font-weight: normal;
+	font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	-moz-box-shadow: 0 2px 2px -2px #0E1119;
+	box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+	text-align: left;
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.container td {
+  color: #ffffff;
+	padding: 20px;   
+}
+
+.container th {
+  color: #2087ED;
+	padding: 20px;  
+}
+
+
+.container tr:nth-child(odd) {
+	background-color: #323C50;
+}
+
+
+.container tr:nth-child(even) {
+	background-color: #2C3446;
+}
+
+.container th {
+	background-color: #1F2739;
+}
+
+.container td:first-child { 
+  color: #FB667A; 
+  font-weight: bold;
+}
+
+.container tr:hover {
+   background-color: #464A52;
+  -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	-moz-box-shadow: 0 6px 6px -6px #0E1119;
+	box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+  transition-timing-function: line;
+}
+
+
+button {
+  display: flex;
+  border: none;
+  background: #29a802;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background: #1e7c01;
+}
+
+footer {
+  margin: 100px 0;
+  color:#0B74FD;
+}
+
+
+
